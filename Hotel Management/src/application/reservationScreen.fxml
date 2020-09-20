@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="730.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ReservationController">
+   <children>
+      <Pane layoutX="167.0" layoutY="40.0" prefHeight="570.0" prefWidth="406.0">
+         <children>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="44.0" prefHeight="32.0" prefWidth="107.0" text="Customer" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="customer" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="40.0" prefHeight="32.0" prefWidth="237.0" promptText="Customer Name">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="114.0" prefHeight="32.0" prefWidth="107.0" text="Phone" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="phone" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="110.0" prefHeight="32.0" prefWidth="237.0" promptText="Phone ">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="191.0" prefHeight="32.0" prefWidth="107.0" text="Address" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="address" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="187.0" prefHeight="32.0" prefWidth="237.0" promptText="Address">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="260.0" prefHeight="32.0" prefWidth="107.0" text="email" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="email" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="256.0" prefHeight="32.0" prefWidth="237.0" promptText="email">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="334.0" prefHeight="32.0" prefWidth="107.0" text="Duration" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="duration" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="330.0" prefHeight="32.0" prefWidth="237.0" promptText="Duration">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="4.0" layoutY="415.0" prefHeight="32.0" prefWidth="124.0" text="Number of People" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="noOfPeople" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="411.0" prefHeight="32.0" prefWidth="237.0" promptText="No of people">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="494.0" prefHeight="32.0" prefWidth="107.0" text="Payment Type" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="payment" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="490.0" prefHeight="32.0" prefWidth="237.0" promptText="Type of payment">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </Pane>
+      <Pane layoutX="714.0" layoutY="40.0" prefHeight="570.0" prefWidth="406.0">
+         <children>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="44.0" prefHeight="32.0" prefWidth="107.0" text="Room Type" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="roomType" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="40.0" prefHeight="32.0" prefWidth="237.0" promptText="Room Type">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="114.0" prefHeight="32.0" prefWidth="107.0" text="Room Num" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="roomNum" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="110.0" prefHeight="32.0" prefWidth="237.0" promptText="Room Num">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="191.0" prefHeight="32.0" prefWidth="107.0" text="Start Date" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="startDate" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="187.0" prefHeight="32.0" prefWidth="237.0" promptText="Start Date">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="260.0" prefHeight="32.0" prefWidth="107.0" text="End date" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="endDate" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="256.0" prefHeight="32.0" prefWidth="237.0" promptText="End Date">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="334.0" prefHeight="32.0" prefWidth="107.0" text="Price" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="price" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="330.0" prefHeight="32.0" prefWidth="237.0" promptText="Price">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="415.0" prefHeight="32.0" prefWidth="107.0" text="Services" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="services" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="411.0" prefHeight="32.0" prefWidth="237.0" promptText="Services">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="21.0" layoutY="494.0" prefHeight="32.0" prefWidth="107.0" text="Total" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="total" alignment="CENTER" focusColor="#15f07f" labelFloat="true" layoutX="129.0" layoutY="490.0" prefHeight="32.0" prefWidth="237.0" promptText="Total">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </Pane>
+      <Pane layoutX="144.0" layoutY="619.0" prefHeight="86.0" prefWidth="976.0">
+         <children>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="328.0" layoutY="21.0" onAction="#book" prefHeight="44.0" prefWidth="107.0" style="-fx-background-color: #09e2a7;" text="Book" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="737.0" layoutY="23.0" onAction="#print" prefHeight="44.0" prefWidth="107.0" style="-fx-background-color: #09e2a7;" text="Print" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="533.0" layoutY="23.0" onAction="#reset" prefHeight="44.0" prefWidth="107.0" style="-fx-background-color: #09e2a7;" text="Reset" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="121.0" layoutY="23.0" onAction="#back" prefHeight="44.0" prefWidth="107.0" style="-fx-background-color: #09e2a7;" text="Back" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="14.0" prefHeight="32.0" prefWidth="290.0" style="-fx-background-color: #09e2a7;" text="BOOKING ROOM">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
